@@ -1,70 +1,38 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{singh_kidsguard_2019,
+    author = {Singh, Shubham and Kaushal, Rishabh and Buduru, Arun Balaji and Kumaraguru, Ponnurangam},
+    title = {{KidsGUARD: Fine Grained Approach for Child Unsafe Video Representation and Detection}},
+    abstract = {Increasingly more and more videos are being uploaded on video sharing platforms, and a significant number of viewers on these platforms are children. At times, these videos have violent or sexually explicit scenes (referred as child unsafe) to catch children's attention. To evade moderation, malicious video uploaders typically limit the child unsafe content to only a few frames in the video. Hence, a fine-grained approach, referred as KidsGUARD1, to detect sparsely present child unsafe content is required. Prior approaches to content moderation either flag the entire video as inappropriate or use hand-crafted features derived from video frames. In this work, we leverage Long Short Term Memory (LSTM) based autoencoder to learn effective video representations of video descriptors obtained from using VGG16 Convolutional Neural Network (CNN). Encoded video representations are fed into LSTM classifier for detection of sparse child unsafe video content. To evaluate this approach, we create a dataset of 109,835 video clips curated specifically for child unsafe content. We find that deep learning approach (1) detects fine-grained child unsafe video content with the granularity of 1 second, (2) identifies even sparsely location child unsafe video content by achieving a high recall of 81% at high precision of 80%, and (3) outperforms baseline video encoding approaches based on like Fisher Vector (FV) and Vector of Locally Aggregated Descriptors (VLAD).},
+    year = {2019},
+    isbn = {9781450359337},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3297280.3297487},
+    doi = {10.1145/3297280.3297487},
+    booktitle = {Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing},
+    pages = {2104–2111},
+    numpages = {8},
+    keywords = {child safety, video analysis, social media analysis},
+    location = {Limassol, Cyprus},
+    series = {SAC ’19},
+    abbr = {ACM SAC},
+    html = {https://dl.acm.org/doi/abs/10.1145/3297280.3297487},
+    pdf = {kidsguard_sac_2019.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@InProceedings{kaushal_nexlink_2020,
+    author={Kaushal, Rishabh
+    and Singh, Shubham
+    and Kumaraguru, Ponnurangam},
+    title={{NeXLink: Node Embedding Framework for Cross-Network Linkages Across Social Networks}},
+    abstract={Users create accounts on multiple social networks to get connected to their friends across these networks. We refer to these user accounts as user identities. Since users join multiple social networks, therefore, there will be cases where a pair of user identities across two different social networks belong to the same individual. We refer to such pairs as Cross-Network Linkages (CNLs). In this work, we model the social network as a graph to explore the question, whether we can obtain effective social network graph representation such that node embeddings of users belonging to CNLs are closer in embedding space than other nodes, using only the network information. To this end, we propose a modular and flexible node embedding framework, referred to as NeXLink, which comprises of three steps. First, we obtain local node embeddings by preserving the local structure of nodes within the same social network. Second, we learn the global node embeddings by preserving the global structure, which is present in the form of common friendship exhibited by nodes involved in CNLs across social networks. Third, we combine the local and global node embeddings, which preserve local and global structures to facilitate the detection of CNLs across social networks. We evaluate our proposed framework on an augmented (synthetically generated) dataset of 63,713 nodes & 817,090 edges and real-world dataset of 3338 Twitter-Foursquare node pairs. Our approach achieves an average Hit@1 rate of 98% for detecting CNLs across social networks and significantly outperforms previous state-of-the-art methods.},
+    booktitle={Proceedings of NetSci-X 2020: Sixth International Winter School and Conference on Network Science},
+    year={2020},
+    publisher={Springer International Publishing},
+    address={Cham},
+    pages={61--75},
+    isbn={978-3-030-38965-9},
+    abbr = {NetSci-X},
+    selected = {true},
+    html = {https://link.springer.com/chapter/10.1007/978-3-030-38965-9_5},
+    pdf = {nexlink_netscix_2020.pdf}
 }
