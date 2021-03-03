@@ -1,5 +1,14 @@
 ## How to Deploy
 
+### Preliminaries
+
+GitHub-specific naming convention is as follows:
+
++ `user-remote`: The remote for your GitHub homepage repository
+  `<your-github-username>.github.io`.
++ `changes-branch`: The main working branch where you make changes specific to
+  your information and different from the `master` (sometimes `main`) branch. 
+
 ### Deploying as a user page
 
 1. Add the remote of user repository
