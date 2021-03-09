@@ -5,7 +5,7 @@ order : 1
 permalink: /
 description: 
   # <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-  (he/him/his) CS Ph.D. Student at University of Illinois at Chicago.
+  (he/him/his) CS Ph.D. Student at UIC.
 
 profile:
   align: right
