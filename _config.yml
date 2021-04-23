@@ -47,6 +47,7 @@ github_username: shubhams # your GitHub user name
 twitter_username: regexmachina # your Twitter handle
 linkedin_username: shubhamsngh # your LinkedIn user name
 stackoverflow_username: 3832088/shubhamsingh # your LinkedIn user name
+gitlab_username: # your GitLab user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -135,6 +136,9 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+# Extras
+github: [metadata]
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -164,13 +168,17 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false
-enable_panelbear_analytics: true
-enable_mansory:             true
-enable_math:                true
-enable_tooltips:            false
-enable_darkmode:            true
-show_social_icons:          false
+enable_google_analytics:    false  # enables google analytics
+enable_panelbear_analytics: true  # enables panelbear analytics
+enable_mansory:             true   # enables automatic project cards arangement
+enable_math:                true   # enables math typesetting (uses MathJax)
+enable_tooltips:            false  # enables automatic tooltip links generated
+                                   # for each section titles on pages and posts
+enable_darkmode:            true   # enables switching between light/dark modes
+enable_navbar_social:       false  # enables displaying social links in the
+                                   # navbar on the about page
+enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
 
 # -----------------------------------------------------------------------------
 # Library versions
