@@ -61,7 +61,7 @@ GitHub-specific naming convention is as follows:
 Check if the `upstream` remote exits. 
 ```bash
 $ git checkout master
-$ git merge upsteam/master
+$ git merge upstream/master
 $ git checkout <changes-branch>
 $ git merge master
 ```
