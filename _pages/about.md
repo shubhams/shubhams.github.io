@@ -26,13 +26,13 @@ of Illinois at Chicago](https://cs.uic.edu/){:target="\_blank"}. I'm advised by
 research focuses on the areas of Security and Privacy, Algorithmic Fairness, and
 Computational Social Science. 
 
-In the past, I have worked at [Precog Research
-Lab](http://precog.iiitd.edu.in/){:target="\_blank"}, where I was advised by
-[Ponnurangam Kumaraguru "PK"](https://twitter.com/ponguru). My industrial
-experience includes working as a Full Stack Developer at an Amazon Pay-acquired
-startup and a software developer intern at
-[MobiKwik](https://www.mobikwik.com/){:target="\_blank"}. I received my
-undergraduate degree from
+In the past, I worked at [Precog Research
+Lab](http://precog.iiitd.edu.in/){:target="\_blank"} as a Research Associate,
+where I was advised by [Ponnurangam Kumaraguru
+"PK"](https://twitter.com/ponguru). My industrial experience includes working as
+a Full Stack Developer at an Amazon Pay-acquired startup and a software
+developer intern at [MobiKwik](https://www.mobikwik.com/){:target="\_blank"}. I
+received my undergraduate degree from
 [IIIT-Delhi](https://www.iiitd.ac.in/){:target="\_blank"} in Computer Science.
 
 
