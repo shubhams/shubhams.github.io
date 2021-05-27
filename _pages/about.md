@@ -28,7 +28,7 @@ Computational Social Science.
 
 In the past, I have worked at [Precog Research
 Lab](http://precog.iiitd.edu.in/){:target="\_blank"}, where I was advised by
-[Prof. Ponnurangam Kumaraguru "PK"](https://twitter.com/ponguru). My industrial
+[Ponnurangam Kumaraguru "PK"](https://twitter.com/ponguru). My industrial
 experience includes working as a Full Stack Developer at an Amazon Pay-acquired
 startup and a software developer intern at
 [MobiKwik](https://www.mobikwik.com/){:target="\_blank"}. I received my
