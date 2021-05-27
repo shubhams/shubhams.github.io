@@ -5,7 +5,7 @@ order : 1
 permalink: /
 description: 
   # <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-  (he/him/his) CS Ph.D. Student at UIC.
+  (he/him) CS Ph.D. Student at UIC.
 
 profile:
   align: right
@@ -20,13 +20,20 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student with the Department of Computer Science at [University of Illinois at Chicago](https://cs.uic.edu/){:target="\_blank"}. I'm advised by
+I am a Ph.D. student with the Department of Computer Science at the [University
+of Illinois at Chicago](https://cs.uic.edu/){:target="\_blank"}. I'm advised by
 [Chris Kanich](https://www.cs.uic.edu/~ckanich/){:target="\_blank"}, and my
-research focusses on the areas of Security and Privacy, Fairness in Machine
-Learning, and Computational Social Science. 
+research focuses on the areas of Security and Privacy, Algorithmic Fairness, and
+Computational Social Science. 
 
-In the past, I have worked at [Precog Research Lab](http://precog.iiitd.edu.in/){:target="\_blank"}, 
-an Amazon Pay-acquired startup, and [MobiKwik](https://www.mobikwik.com/){:target="\_blank"}. I received my undergraduate degree from [IIIT-Delhi](https://www.iiitd.ac.in/){:target="\_blank"} in Computer Science.
+In the past, I have worked at [Precog Research
+Lab](http://precog.iiitd.edu.in/){:target="\_blank"}, where I was advised by
+[Prof. Ponnurangam Kumaraguru "PK"](https://twitter.com/ponguru). My industrial
+experience includes working as a Full Stack Developer at an Amazon Pay-acquired
+startup and a software developer intern at
+[MobiKwik](https://www.mobikwik.com/){:target="\_blank"}. I received my
+undergraduate degree from
+[IIIT-Delhi](https://www.iiitd.ac.in/){:target="\_blank"} in Computer Science.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
