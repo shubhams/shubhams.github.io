@@ -30,7 +30,7 @@ GitHub-specific naming convention is as follows:
 
 4. Run command:
     ```bash
-    $ ./bin/deploy -s <changes-branch>
+    $ ./bin/deploy -s <changes-branch> --no-push
     ```
     By default, the above command compiles and deploys the changes to branch, `gh-pages`.
 
