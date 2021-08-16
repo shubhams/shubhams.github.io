@@ -1,9 +1,58 @@
 ---
 ---
 
+@article{singh_food_2021,
+  title         = {Fair Decision-Making for Food Inspections},
+  author        = {Shubham Singh and Bhuvni Shah and Ian A. Kash},
+  abstract      = {We revisit the application of predictive models by the Chicago Department of Public Health to schedule restaurant inspections and prioritize the detection of critical violations of the food code. Performing the first analysis from the perspective of fairness to the population served by the restaurants, we find that the model treats inspections unequally based on the sanitarian who conducted the inspection and that in turn there are both geographic and demographic disparities in the benefits of the model. We examine both approaches to use the original model in a fairer way and ways to train the model to achieve fairness and find more success with the former class of approaches. The challenges from this application point to important directions for future work around fairness with collective entities rather than individuals, the use of critical violations as a proxy, and the disconnect between fair classification and fairness in the dynamic scheduling system. },
+  journal       = {arXiv preprint},
+  url           = {https://arxiv.org/abs/2108.05523},
+  year          = {2021},
+  arxiv         = {2108.05523},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.LG},
+  abbr          = {arXiv}
+}
+
+@inproceedings{taha_alethia_2021,
+  author      = {Mohammad Taha Khan and Christopher Tran and Shubham Singh and Dimitri Vasilkov and Chris Kanich and Blase Ur and Elena Zheleva},
+  title       = {Helping Users Automatically Find and Manage Sensitive, Expendable Files in Cloud Storage},
+  abstract    = {With the ubiquity of data breaches, forgotten-about files stored in the cloud create latent privacy risks. We take a holistic approach to help users identify sensitive, unwanted files in cloud storage. We first conducted 17 qualitative interviews to characterize factors that make humans perceive a file as sensitive, useful, and worthy of either protection or deletion. Building on our findings, we conducted a primarily quantitative online study. We showed 108 long-term users of Google Drive or Dropbox a selection of files from their accounts. They labeled and explained these files' sensitivity, usefulness, and desired management (whether they wanted to keep, delete, or protect them). For each file, we collected many metadata and content features, building a training dataset of 3,525 labeled files. We then built Aletheia, which predicts a file's perceived sensitivity and usefulness, as well as its desired management. Aletheia improves over state-of-the-art baselines by 26% to 159%, predicting users' desired file-management decisions with 79% accuracy. Notably, predicting subjective perceptions of usefulness and sensitivity led to a 10% absolute accuracy improvement in predicting desired file-management decisions. Aletheia's performance validates a human-centric approach to feature selection when using inference techniques on subjective security-related tasks. It also improves upon the state of the art in minimizing the attack surface of cloud accounts.},
+  booktitle   = {30th USENIX Security Symposium (USENIX Security 21)},
+  year        = {2021},
+  isbn        = {978-1-939133-24-3},
+  pages       = {1145--1162},
+  url         = {https://www.usenix.org/conference/usenixsecurity21/presentation/khan-mohammad},
+  publisher   = {{USENIX} Association},
+  month       = aug,
+  abbr        = {USENIX},
+  selected    = {true},
+  pdf         = {alethia_usenix_2021.pdf},
+  html        = {https://www.usenix.org/conference/usenixsecurity21/presentation/khan-mohammad},
+  bibtex_show = {true}
+}
+
+@inproceedings{kaushal_nexlink_2020,
+  author      = {Kaushal, Rishabh
+    and Singh, Shubham
+    and Kumaraguru, Ponnurangam},
+  title       = {NeXLink: Node Embedding Framework for Cross-Network Linkages Across Social Networks},
+  abstract    = {Users create accounts on multiple social networks to get connected to their friends across these networks. We refer to these user accounts as user identities. Since users join multiple social networks, therefore, there will be cases where a pair of user identities across two different social networks belong to the same individual. We refer to such pairs as Cross-Network Linkages (CNLs). In this work, we model the social network as a graph to explore the question, whether we can obtain effective social network graph representation such that node embeddings of users belonging to CNLs are closer in embedding space than other nodes, using only the network information. To this end, we propose a modular and flexible node embedding framework, referred to as NeXLink, which comprises of three steps. First, we obtain local node embeddings by preserving the local structure of nodes within the same social network. Second, we learn the global node embeddings by preserving the global structure, which is present in the form of common friendship exhibited by nodes involved in CNLs across social networks. Third, we combine the local and global node embeddings, which preserve local and global structures to facilitate the detection of CNLs across social networks. We evaluate our proposed framework on an augmented (synthetically generated) dataset of 63,713 nodes & 817,090 edges and real-world dataset of 3338 Twitter-Foursquare node pairs. Our approach achieves an average Hit@1 rate of 98% for detecting CNLs across social networks and significantly outperforms previous state-of-the-art methods.},
+  booktitle   = {Proceedings of NetSci-X 2020: Sixth International Winter School and Conference on Network Science},
+  year        = {2020},
+  publisher   = {Springer International Publishing},
+  address     = {Cham},
+  pages       = {61--75},
+  isbn        = {978-3-030-38965-9},
+  abbr        = {NetSci-X},
+  html        = {https://link.springer.com/chapter/10.1007/978-3-030-38965-9_5},
+  pdf         = {nexlink_netscix_2020.pdf},
+  bibtex_show = {true}
+}
+
 @inproceedings{singh_kidsguard_2019,
   author      = {Singh, Shubham and Kaushal, Rishabh and Buduru, Arun Balaji and Kumaraguru, Ponnurangam},
-  title       = {{KidsGUARD: Fine Grained Approach for Child Unsafe Video Representation and Detection}},
+  title       = {KidsGUARD: Fine Grained Approach for Child Unsafe Video Representation and Detection},
   abstract    = {Increasingly more and more videos are being uploaded on video sharing platforms, and a significant number of viewers on these platforms are children. At times, these videos have violent or sexually explicit scenes (referred as child unsafe) to catch children's attention. To evade moderation, malicious video uploaders typically limit the child unsafe content to only a few frames in the video. Hence, a fine-grained approach, referred as KidsGUARD1, to detect sparsely present child unsafe content is required. Prior approaches to content moderation either flag the entire video as inappropriate or use hand-crafted features derived from video frames. In this work, we leverage Long Short Term Memory (LSTM) based autoencoder to learn effective video representations of video descriptors obtained from using VGG16 Convolutional Neural Network (CNN). Encoded video representations are fed into LSTM classifier for detection of sparse child unsafe video content. To evaluate this approach, we create a dataset of 109,835 video clips curated specifically for child unsafe content. We find that deep learning approach (1) detects fine-grained child unsafe video content with the granularity of 1 second, (2) identifies even sparsely location child unsafe video content by achieving a high recall of 81% at high precision of 80%, and (3) outperforms baseline video encoding approaches based on like Fisher Vector (FV) and Vector of Locally Aggregated Descriptors (VLAD).},
   year        = {2019},
   isbn        = {9781450359337},
@@ -20,39 +69,5 @@
   abbr        = {ACM SAC},
   html        = {https://dl.acm.org/doi/abs/10.1145/3297280.3297487},
   pdf         = {kidsguard_sac_2019.pdf},
-  bibtex_show = {true}
-}
-
-@inproceedings{kaushal_nexlink_2020,
-  author      = {Kaushal, Rishabh
-    and Singh, Shubham
-    and Kumaraguru, Ponnurangam},
-  title       = {{NeXLink: Node Embedding Framework for Cross-Network Linkages Across Social Networks}},
-  abstract    = {Users create accounts on multiple social networks to get connected to their friends across these networks. We refer to these user accounts as user identities. Since users join multiple social networks, therefore, there will be cases where a pair of user identities across two different social networks belong to the same individual. We refer to such pairs as Cross-Network Linkages (CNLs). In this work, we model the social network as a graph to explore the question, whether we can obtain effective social network graph representation such that node embeddings of users belonging to CNLs are closer in embedding space than other nodes, using only the network information. To this end, we propose a modular and flexible node embedding framework, referred to as NeXLink, which comprises of three steps. First, we obtain local node embeddings by preserving the local structure of nodes within the same social network. Second, we learn the global node embeddings by preserving the global structure, which is present in the form of common friendship exhibited by nodes involved in CNLs across social networks. Third, we combine the local and global node embeddings, which preserve local and global structures to facilitate the detection of CNLs across social networks. We evaluate our proposed framework on an augmented (synthetically generated) dataset of 63,713 nodes & 817,090 edges and real-world dataset of 3338 Twitter-Foursquare node pairs. Our approach achieves an average Hit@1 rate of 98% for detecting CNLs across social networks and significantly outperforms previous state-of-the-art methods.},
-  booktitle   = {Proceedings of NetSci-X 2020: Sixth International Winter School and Conference on Network Science},
-  year        = {2020},
-  publisher   = {Springer International Publishing},
-  address     = {Cham},
-  pages       = {61--75},
-  isbn        = {978-3-030-38965-9},
-  abbr        = {NetSci-X},
-  html        = {https://link.springer.com/chapter/10.1007/978-3-030-38965-9_5},
-  pdf         = {nexlink_netscix_2020.pdf},
-  bibtex_show = {true}
-}
-
-@inproceedings{taha_alethia_2021,
-  author      = {Mohammad Taha Khan and Christopher Tran and Shubham Singh and Dimitri Vasilkov and Chris Kanich and Blase Ur and Elena Zheleva},
-  title       = {Helping Users Automatically Find and Manage Sensitive, Expendable Files in Cloud Storage},
-  abstract    = {With the ubiquity of data breaches, forgotten-about files stored in the cloud create latent privacy risks. We take a holistic approach to help users identify sensitive, unwanted files in cloud storage. We first conducted 17 qualitative interviews to characterize factors that make humans perceive a file as sensitive, useful, and worthy of either protection or deletion. Building on our findings, we conducted a primarily quantitative online study. We showed 108 long-term users of Google Drive or Dropbox a selection of files from their accounts. They labeled and explained these files' sensitivity, usefulness, and desired management (whether they wanted to keep, delete, or protect them). For each file, we collected many metadata and content features, building a training dataset of 3,525 labeled files. We then built Aletheia, which predicts a file's perceived sensitivity and usefulness, as well as its desired management. Aletheia improves over state-of-the-art baselines by 26% to 159%, predicting users' desired file-management decisions with 79% accuracy. Notably, predicting subjective perceptions of usefulness and sensitivity led to a 10% absolute accuracy improvement in predicting desired file-management decisions. Aletheia's performance validates a human-centric approach to feature selection when using inference techniques on subjective security-related tasks. It also improves upon the state of the art in minimizing the attack surface of cloud accounts.},
-  booktitle   = {30th {USENIX} Security Symposium ({USENIX} Security 21)},
-  year        = {2021},
-  url         = {https://www.usenix.org/conference/usenixsecurity21/presentation/khan-mohammad},
-  publisher   = {{USENIX} Association},
-  month       = aug,
-  abbr        = {USENIX},
-  selected    = {true},
-  pdf         = {alethia_usenix_2021.pdf},
-  html        = {https://www.usenix.org/conference/usenixsecurity21/presentation/khan-mohammad},
   bibtex_show = {true}
 }
