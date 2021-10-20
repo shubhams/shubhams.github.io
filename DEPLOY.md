@@ -71,5 +71,5 @@ $ git checkout <sync-branch>
 $ git fetch upstream
 $ git merge upstream/master
 $ git checkout <changes-branch>
-$ git merge master
+$ git merge <sync-branch>
 ```
