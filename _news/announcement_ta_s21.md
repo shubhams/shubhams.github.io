@@ -5,4 +5,4 @@ inline: true
 ---
 
 I am one of the Graduate Teaching Assistants for the Spring 2021 offering
-of [CS 361: Computer Systems Programming](https://www.cs.uic.edu/~ckanich/cs361/s21/){:target="\_blank"}.
+of [CS 361: Computer Systems Programming](https://www.cs.uic.edu/~ckanich/cs361/s21/).
