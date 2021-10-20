@@ -8,8 +8,15 @@ GitHub-specific naming convention is as follows:
   `<your-github-username>.github.io`.
 + `changes-branch`: The main working branch where you make changes specific to
   your information and different from the `master` (sometimes `main`) branch. 
++ `sync-branch`: The branch in sync with upstream and used to pull upstream changes.
 
-### Deploying as a user page
+### Deploying using GitHub actions
+
+1. Commit all the changes in the `changes-branch`.
+2. Merge the branches in the `master` branch.
+3. Push the master branch to the `user-remote`.
+
+### Manully deploying as a user page
 
 1. Add the remote of user repository
     ```bash
@@ -40,7 +47,7 @@ GitHub-specific naming convention is as follows:
     ```
 6. The webpage should be up at `username.github.io`.
 
-### Deploying as a project page
+### Manually deploying as a project page
 
 1. Set the value of `url` and `baseurl` in `_config.yml` as follows:
     ```markdown
@@ -60,7 +67,7 @@ GitHub-specific naming convention is as follows:
 
 Check if the `upstream` remote exits. 
 ```bash
-$ git checkout master
+$ git checkout <sync-branch>
 $ git fetch upstream
 $ git merge upstream/master
 $ git checkout <changes-branch>
