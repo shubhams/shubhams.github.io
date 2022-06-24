@@ -8,7 +8,7 @@ subtitle:
 
 profile:
   align: right
-  image: chicago_prof.jpg
+  image: chicago_prof.JPG
   address: >
     <p>1300 SEO</p>
     <p>851 S. Morgan St., </p>
