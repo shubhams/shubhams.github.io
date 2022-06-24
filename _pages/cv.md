@@ -3,7 +3,7 @@ layout: page
 permalink: /cv
 pdf_file: "/assets/pdf/shubham_singh_cv.pdf"
 title: cv
-order: 3
+nav_order: 3
 # description: Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
