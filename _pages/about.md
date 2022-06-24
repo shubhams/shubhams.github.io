@@ -9,7 +9,7 @@ description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: chicago_prof.jpg
   address: >
     <p>1300 SEO</p>
     <p>851 S. Morgan St., </p>
@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student with the Department of Computer Science at the [University of Illinois at Chicago](https://cs.uic.edu/). I'm advised by [Chris Kanich](https://www.cs.uic.edu/~ckanich/), and my research focuses on the areas of Security and Privacy, Algorithmic Fairness, and Computational Social Science.
+I am a Ph.D. student with the Department of Computer Science at the [University of Illinois at Chicago](https://cs.uic.edu/), where I'm advised by [Chris Kanich](https://www.cs.uic.edu/~ckanich/) and [Ian A. Kash](https://www.cs.uic.edu/~iankash/), and my research focuses on the areas of Algorithmic Fairness, Security and Privacy, and Computational Social Science.
 
 In the past, I worked at [Precog Research Lab](https://precog.iiit.ac.in/) as a Research Associate, where I was advised by [Ponnurangam Kumaraguru "PK"](https://twitter.com/ponguru) and [Arun Balaji Buduru](http://faculty.iiitd.ac.in/~arunb/). My industrial experience includes working as a Full Stack Developer at an [Amazon Pay-acquired startup](https://www.linkedin.com/company/tapzo/) and a software developer intern at [MobiKwik](https://www.mobikwik.com/). I received my undergraduate degree from [IIIT-Delhi](https://www.iiitd.ac.in/) in Computer Science.
 

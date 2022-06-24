@@ -16,7 +16,7 @@ GitHub-specific naming convention is as follows:
 2. Merge the branches in the `master` branch.
 3. Push the master branch to the `user-remote`.
 
-### Manully deploying as a user page
+### Manually deploying as a user page
 
 1. Add the remote of user repository
     ```bash
