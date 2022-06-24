@@ -1,10 +1,9 @@
 ---
 layout: about
 title: about
-order : 1
 permalink: /
-description: 
-  # <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
+  # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
   (he/him) CS Ph.D. Student at UIC.
 
 profile:
