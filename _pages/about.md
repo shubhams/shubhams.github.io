@@ -9,6 +9,7 @@ subtitle:
 profile:
   align: right
   image: chicago_prof.jpg
+  image_cicular: false # crops the image to make it circular
   address: >
     <p>1300 SEO</p>
     <p>851 S. Morgan St., </p>
