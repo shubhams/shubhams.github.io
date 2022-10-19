@@ -80,11 +80,10 @@ contact_note: >
 # -----------------------------------------------------------------------------
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
+panelbear_analytics: 7w7RNE2uNAk # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-panelbear_analytics: 7w7RNE2uNAk # panelbear analytics site ID (format: XXXXXXXXX)
 
 # -----------------------------------------------------------------------------
 # Blog
