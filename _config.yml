@@ -75,7 +75,13 @@ contact_note: >
   You can reach out to me via email. Also feel free to connect with me on any of the socials.
 # You can even add a little note about which of these is the best way to reach you.
 
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
+
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics: 7w7RNE2uNAk # panelbear analytics site ID (format: XXXXXXXXX)
@@ -231,6 +237,8 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
+
+enable_responsive_images: false # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
 
 imagemagick:
   enabled: false # set enabled: true when https://github.com/alshedivat/al-folio/issues/537 is resolved
