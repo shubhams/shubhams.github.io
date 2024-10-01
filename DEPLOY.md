@@ -13,7 +13,7 @@ GitHub-specific naming convention is as follows:
 ### Deploying using GitHub actions
 
 1. Commit all the changes in the `changes-branch`.
-2. Merge the branches in the `master` branch.
+2. Merge the branches in the `master` branch using `--strategy-option theirs`.
 3. Push the master branch to the `user-remote`.
 
 ### Manually deploying as a user page
