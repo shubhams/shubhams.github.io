@@ -6,13 +6,13 @@ GitHub-specific naming convention is as follows:
 
 + `user-remote`: The remote for your GitHub homepage repository
   `<your-github-username>.github.io`.
-+ `changes-branch`: The main working branch where you make changes specific to
++ `my-changes`: The main working branch where you make changes specific to
   your information and different from the `master` (sometimes `main`) branch. 
-+ `sync-branch`: The branch in sync with upstream and used to pull upstream changes.
++ `sync`: The branch in sync with upstream and used to pull upstream changes.
 
 ### Deploying using GitHub actions
 
-1. Commit all the changes in the `changes-branch`.
+1. Commit all the changes in the `my-changes`.
 2. Merge the branches in the `master` branch using `--strategy-option theirs`.
 3. Push the master branch to the `user-remote`.
 
@@ -33,11 +33,11 @@ GitHub-specific naming convention is as follows:
     baseurl: #empty
     ```
 
-3. Commit and push all the changes to a branch, `<changes-branch>`.
+3. Commit and push all the changes to a branch, `<my-changes>`.
 
 4. Run command:
     ```bash
-    $ ./bin/deploy -s <changes-branch> --no-push
+    $ ./bin/deploy -s <my-changes> --no-push
     ```
     By default, the above command compiles and deploys the changes to branch, `gh-pages`.
 
@@ -55,11 +55,11 @@ GitHub-specific naming convention is as follows:
     baseurl: <github-project-name>
     ```
 
-2. Commit and push all the changes to a branch, `<changes-branch>`.
+2. Commit and push all the changes to a branch, `<my-changes>`.
 
 3. Run command:
     ```bash
-    $ ./bin/deploy -s <changes-branch>
+    $ ./bin/deploy -s <my-changes>
     ```
 4. The webpage should be up at `username.github.io/<github-project-name>`.
 
@@ -67,9 +67,9 @@ GitHub-specific naming convention is as follows:
 
 Check if the `upstream` remote exits. 
 ```bash
-$ git checkout <sync-branch>
+$ git checkout <sync>
 $ git fetch upstream
-$ git merge upstream/master
-$ git checkout <changes-branch>
-$ git merge <sync-branch>
+$ git merge <sync>
+$ git checkout <master>
+$ git merge <latest_tag_name>
 ```
