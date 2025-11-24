@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
-  Research Scientist at the University of Chicago Data Science Institute
+subtitle: Research Scientist at the University of Chicago Data Science Institute
 
 profile:
   align: right
@@ -34,7 +33,6 @@ I am a Research Scientist at the [University of Chicago Data Science Institute](
 Previously, I led Working Groups for the [EAAMO Bridges (formerly MD4SG)](https://www.eaamo.org/about#65c61f99a915f84dae8d2a74) initiative, and I developed my research foundation at [Precog Research Lab](https://precog.iiit.ac.in/) under [Ponnurangam Kumaraguru “PK”](https://twitter.com/ponguru) and [Arun Balaji Buduru](http://faculty.iiitd.ac.in/~arunb/). My industry background includes serving as a Full-Stack Developer at an [Amazon–acquired startup](https://www.linkedin.com/company/tapzo/) and a software engineering intern at [MobiKwik](https://www.mobikwik.com/). I completed my undergraduate degree in Computer Science at [IIIT-Delhi](https://www.iiitd.ac.in/).
 
 Name pronunciation: /ˈʃuːbˈhʌm/, (shoo-b-hum)
-
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
