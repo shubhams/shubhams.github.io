@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-08'
+  last_updated: '2025-12-24'
 papers:
   u3DWW98AAAAJ:2osOgNQ5qMEC:
     citations: 44
@@ -9,6 +9,10 @@ papers:
     citations: 5
     title: 'AI and the EU Digital Markets Act: Addressing the Risks of Bigness in Generative AI'
     year: '2023'
+  u3DWW98AAAAJ:J_g5lzvAfSwC:
+    citations: 0
+    title: Evaluating the Social Impact of Generative AI Systems Purchased
+    year: Unknown Year
   u3DWW98AAAAJ:NaGl4SEjCO4C:
     citations: 4
     title: 'Integration of generative ai in the digital markets act: Contestability and fairness from a cross-disciplinary perspective'
@@ -34,7 +38,7 @@ papers:
     title: Open Problems in (Un) fairness of the Retail Food Safety Inspection Process
     year: Unknown Year
   u3DWW98AAAAJ:qjMakFHDy7sC:
-    citations: 5
+    citations: 6
     title: 'NeXLink: Node embedding framework for cross-network linkages across social networks'
     year: '2020'
   u3DWW98AAAAJ:qxL8FJ1GzNcC:
