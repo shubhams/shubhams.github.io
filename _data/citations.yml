@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-06'
+  last_updated: '2026-03-25'
 papers:
   u3DWW98AAAAJ:2osOgNQ5qMEC:
-    citations: 49
+    citations: 51
     title: 'KidsGUARD: fine grained approach for child unsafe video representation and detection'
     year: '2019'
   u3DWW98AAAAJ:9ZlFYXVOiuMC:
@@ -14,11 +14,11 @@ papers:
     title: 'Integration of generative ai in the digital markets act: Contestability and fairness from a cross-disciplinary perspective'
     year: '2024'
   u3DWW98AAAAJ:QIV2ME_5wuYC:
-    citations: 210
+    citations: 215
     title: Evaluating the social impact of generative ai systems in systems and society
     year: '2023'
   u3DWW98AAAAJ:Tyk-4Ss8FVUC:
-    citations: 20
+    citations: 22
     title: Helping Users Automatically Find and Manage Sensitive, Expendable Files in Cloud Storage
     year: '2021'
   u3DWW98AAAAJ:W7OEmFMy1HYC:
