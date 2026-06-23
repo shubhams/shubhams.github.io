@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist at the University of Chicago Data Science Institute
+subtitle: ML Researcher and Engineer
 
 profile:
   align: right
   image: chicago_bluebg.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>5460 S University Ave</p>
-    <p>Chicago, Illinois 60615</p>
+    <p>Los Angeles, CA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,9 +27,9 @@ latest_posts:
 
 <!-- **Looking for postdoc and industry research opportunities starting Fall 2025.** -->
 
-I am a Research Scientist at the [University of Chicago Data Science Institute](https://datascience.uchicago.edu/), working with [Moon Duchin](https://mggg.org/people/mduchin/). I recently earned my Ph.D. in Computer Science from the [University of Illinois Chicago](https://cs.uic.edu/), advised by [Chris Kanich](https://www.cs.uic.edu/~ckanich/) and [Ian A. Kash](https://www.cs.uic.edu/~iankash/). My research sits at the intersection of algorithmic fairness, security and privacy, and computational social science, with a focus on diagnosing and mitigating biases in sociotechnical systems.
+I am a Machine Learning Researcher and Engineer. I work at [Fintary](https://www.fintary.com/) solving data problems for insurance insights and forecasting. In the past, I have worked as a Research Scientist at the [University of Chicago Data Science Institute](https://datascience.uchicago.edu/) with [Moon Duchin](https://mggg.org/people/mduchin/). I have a Ph.D. in Computer Science from the [University of Illinois Chicago](https://cs.uic.edu/), where I was advised by [Chris Kanich](https://www.cs.uic.edu/~ckanich/) and [Ian A. Kash](https://www.cs.uic.edu/~iankash/). My research on Applied Machine Learning, Multi-Objective Optimization, Algorithmic Fairness, Security and Privacy, and Computational Social Science has been published at ICML, FAccT, EAAMO, USENIX Security.
 
-Previously, I led Working Groups for the [EAAMO Bridges (formerly MD4SG)](https://www.eaamo.org/about#65c61f99a915f84dae8d2a74) initiative, and I developed my research foundation at [Precog Research Lab](https://precog.iiit.ac.in/) under [Ponnurangam Kumaraguru “PK”](https://twitter.com/ponguru) and [Arun Balaji Buduru](http://faculty.iiitd.ac.in/~arunb/). My industry background includes serving as a Full-Stack Developer at an [Amazon–acquired startup](https://www.linkedin.com/company/tapzo/) and a software engineering intern at [MobiKwik](https://www.mobikwik.com/). I completed my undergraduate degree in Computer Science at [IIIT-Delhi](https://www.iiitd.ac.in/).
+I independently collaborate with research groups at [EAAMO Bridges](https://bridges.eaamo.org/) and [EvalEval Coalition](https://evalevalai.com/).
 
 Name pronunciation: /ˈʃuːbˈhʌm/, (shoo-b-hum)
 

@@ -4,7 +4,7 @@
 
 GitHub-specific naming convention is as follows:
 
-- `user-remote`: The remote for your GitHub homepage repository
+- `origin`: The remote for your GitHub homepage repository
   `<your-github-username>.github.io`.
 - `my-changes`: The main working branch where you make changes specific to
   your information and different from the `master` (sometimes `main`) branch.
@@ -14,14 +14,14 @@ GitHub-specific naming convention is as follows:
 
 1. Commit all the changes in the `my-changes`.
 2. Merge the branches in the `master` branch using `--strategy-option theirs`.
-3. Push the master branch to the `user-remote`.
+3. Push the master branch to the `origin`.
 
 ### Manually deploying as a user page
 
 1. Add the remote of user repository
 
    ```bash
-   $ git remote add <user-remote> <url>
+   $ git remote add <origin> <url>
    ```
 
    If the user repository remote is already added, verify it using:
@@ -37,19 +37,19 @@ GitHub-specific naming convention is as follows:
    baseurl: #empty
    ```
 
-3. Commit and push all the changes to a branch, `<my-changes>`.
+3. Commit and push all the changes to a branch, `my-changes`.
 
 4. Run command:
 
    ```bash
-   $ ./bin/deploy -s <my-changes> --no-push
+   $ ./bin/deploy -s my-changes --no-push
    ```
 
    By default, the above command compiles and deploys the changes to branch, `gh-pages`.
 
 5. Force push the deployed branch, `gh-pages` to the user page repository.
    ```bash
-   $ git push <user-remote> gh-pages:master -f
+   $ git push <origin> gh-pages:master -f
    ```
 6. The webpage should be up at `username.github.io`.
 
@@ -62,11 +62,11 @@ GitHub-specific naming convention is as follows:
    baseurl: <github-project-name>
    ```
 
-2. Commit and push all the changes to a branch, `<my-changes>`.
+2. Commit and push all the changes to a branch, `my-changes`.
 
 3. Run command:
    ```bash
-   $ ./bin/deploy -s <my-changes>
+   $ ./bin/deploy -s my-changes
    ```
 4. The webpage should be up at `username.github.io/<github-project-name>`.
 
@@ -75,9 +75,8 @@ GitHub-specific naming convention is as follows:
 Check if the `upstream` remote exits.
 
 ```bash
-$ git checkout <sync>
-$ git fetch upstream
-$ git merge <sync>
-$ git checkout <master>
-$ git merge <latest_tag_name>
+$ git switch sync
+$ git pull --rebase upstream <release-tag>
+$ git switch my-changes
+$ git merge sync
 ```
