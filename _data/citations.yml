@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-08-07'
 papers:
   u3DWW98AAAAJ:2osOgNQ5qMEC:
-    citations: 57
+    citations: 59
     title: 'KidsGUARD: fine grained approach for child unsafe video representation and detection'
     year: '2019'
   u3DWW98AAAAJ:35N4QoGY0k4C:
@@ -18,15 +18,15 @@ papers:
     title: 'Integration of generative ai in the digital markets act: Contestability and fairness from a cross-disciplinary perspective'
     year: '2024'
   u3DWW98AAAAJ:QIV2ME_5wuYC:
-    citations: 235
+    citations: 234
     title: Evaluating the social impact of generative ai systems in systems and society
     year: '2023'
   u3DWW98AAAAJ:Tyk-4Ss8FVUC:
-    citations: 23
+    citations: 22
     title: Helping Users Automatically Find and Manage Sensitive, Expendable Files in Cloud Storage
     year: '2021'
   u3DWW98AAAAJ:W7OEmFMy1HYC:
-    citations: 15
+    citations: 16
     title: Fair decision-making for food inspections
     year: '2022'
   u3DWW98AAAAJ:WF5omc3nYNoC:
@@ -38,7 +38,7 @@ papers:
     title: Open Problems in (Un) fairness of the Retail Food Safety Inspection Process
     year: Unknown Year
   u3DWW98AAAAJ:lSLTfruPkqcC:
-    citations: 13
+    citations: 18
     title: 'When ai benchmarks plateau: A systematic study of benchmark saturation'
     year: '2026'
   u3DWW98AAAAJ:qjMakFHDy7sC:
