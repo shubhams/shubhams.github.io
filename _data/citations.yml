@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-28'
 papers:
+  u3DWW98AAAAJ:2P1L_qKh6hAC:
+    citations: 0
+    title: 'Scoring Is Not Enough: Addressing Gaps in Utility-fairness Trade-offs for Ranking'
+    year: '2026'
   u3DWW98AAAAJ:2osOgNQ5qMEC:
     citations: 59
     title: 'KidsGUARD: fine grained approach for child unsafe video representation and detection'
@@ -10,7 +14,7 @@ papers:
     title: 'To Bid or Not to Bid: Using Auctions to Understand User Valuation of Digital Accounts'
     year: '2026'
   u3DWW98AAAAJ:9ZlFYXVOiuMC:
-    citations: 6
+    citations: 8
     title: 'AI and the EU Digital Markets Act: Addressing the Risks of Bigness in Generative AI'
     year: '2023'
   u3DWW98AAAAJ:NaGl4SEjCO4C:
@@ -18,7 +22,7 @@ papers:
     title: 'Integration of generative ai in the digital markets act: Contestability and fairness from a cross-disciplinary perspective'
     year: '2024'
   u3DWW98AAAAJ:QIV2ME_5wuYC:
-    citations: 234
+    citations: 245
     title: Evaluating the social impact of generative ai systems in systems and society
     year: '2023'
   u3DWW98AAAAJ:Tyk-4Ss8FVUC:
@@ -38,15 +42,15 @@ papers:
     title: Open Problems in (Un) fairness of the Retail Food Safety Inspection Process
     year: Unknown Year
   u3DWW98AAAAJ:lSLTfruPkqcC:
-    citations: 18
+    citations: 21
     title: 'When ai benchmarks plateau: A systematic study of benchmark saturation'
     year: '2026'
   u3DWW98AAAAJ:qjMakFHDy7sC:
-    citations: 7
+    citations: 8
     title: 'NeXLink: Node embedding framework for cross-network linkages across social networks'
     year: '2020'
   u3DWW98AAAAJ:qxL8FJ1GzNcC:
-    citations: 1
+    citations: 2
     title: 'Tracking, But Make It Offline: The Privacy Implications of Scanning QR Codes Found in the World'
     year: '2023'
   u3DWW98AAAAJ:vV6vV6tmYwMC:
